@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget contatti</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <header>
+      <h1>Widget contatti in JavaScript</h1>
+    </header>
+
+    <form class="search-form">
+      <label for="search">Cerca tra i contatti:</label>
+      <input type="text" name="search" id="search"
+        placeholder="es: pippo" autocomplete="off"  />
+      <button>Cerca</button>
+    </form>
+
+    <form class="add-new">
+        <h2>Aggiungi ai contatti</h2>
+        <label class="label-add" for="add"> Name:</label>
+        <input class="input-name" type="text" name="add-name" id="add-name" placeholder="es: pippo" autocomplete="off"  required/>
+        <label class="label-add" for="add"> Phone:</label>
+        <input class="input-phone" type="text" name="add-phone" id="add-phone" placeholder="es: +39 3337776543" autocomplete="off"  required/>
+        <label class="label-add"  for="add"> Email:</label>
+        <input class="input-email" type="text" name="add-email" id="add-email" placeholder="es: esempio@mail.com" autocomplete="off"  required/>
+
+        <button class="button-add">Aggiungi</button>
+      </form>
+
+    <ul>
+
+      <!-- 
+            <li>
+                <h3>Rick Sanchez</h3>
+                <p><strong>Phone:</strong><a href="tel:+39 3334445566">3334445566</a></p>
+                <p><strong>Email:</strong><a href="mailto:sanchez@contattamibello.com">sanchez@contattamibello.com</a></p>
+            </li> 
+      -->
+      
+    </ul>
+
+  </main>
+  
+  <script src="script.js"></script>
+  <script src="newindex.js"></script>
+</body>
+</html>
